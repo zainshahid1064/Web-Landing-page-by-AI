@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI' , sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #00ffe1;
+}
+nav {
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+nav h1 {
+  color: #00ffe1;
+  font-size: 1.7rem;
+}
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul li a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #00ffe1;
+}
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1622322755827-9819a08e2f45') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  background: rgba(0,0,0,0.6);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+.hero-content h2 {
+  font-size: 3rem;
+  color: #00ffe1;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.btn {
+  padding: 0.8rem 1.5rem;
+  background: #00ffe1;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #0ff;
+  box-shadow: 0 0 20px #0ff;
+}
+.products {
+  padding: 4rem 2rem;
+  background: #1c1c1c;
+  text-align: center;
+}
+.products h2 {
+  color: #00ffe1;
+  margin-bottom: 2rem;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+.product-card {
+  background: #292929;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 220px;
+  object-fit: cover;
+}
+.product-card h3 {
+  margin: 1rem 0 0.5rem;
+  color: #00ffe1;
+}
+.product-card p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0,255,225,0.3);
+}
+.about, .contact {
+  padding: 3rem 2rem;
+  background: #222;
+  text-align: center;
+}
+footer {
+  background: #000;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+
